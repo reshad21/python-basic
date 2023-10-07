@@ -157,6 +157,17 @@
 #     print(f"your markes is: {number} and you Failed")
 
 
-original_string = "Hello, World!"
-reversed_string = original_string[::-1]
-print(reversed_string)
+# original_string = "Hello, World!"
+# reversed_string = original_string[::-1]
+# print(reversed_string)
+
+
+my_array = [1, 2, 2, 3, 4, 4, 5]
+new_array=[]
+
+for x in my_array:
+    if my_array.count(x)>1:
+        if x not in new_array:
+            new_array.append(x)
+
+print(new_array)
