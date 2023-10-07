@@ -1,5 +1,5 @@
-for x in range(10):
-    print(x+1)
+# for x in range(10):
+#     print(x+1)
 
 # sum = 0
 # for x in range(10):
@@ -99,3 +99,40 @@ for x in range(10):
 #         takenumber = input("Enter number")
 #         number.append(takenumber)
 #         print(number)
+
+
+# factorial number calculation
+
+# num=1
+# for x in range(1,5):
+#     num = num*x
+# print(num)
+
+
+# result = 1
+# for i in range(1, 5):  
+#     result *= i
+# print("The factorial of 4 is:", result)
+
+
+# def factorial(n):
+#     if n == 0:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
+
+# result = factorial(4)
+# print("The factorial of 4 is:", result)
+
+person = {
+    "name": "reshad",
+    "age": 65,
+    "skills": ["css", "python", "javascript"],
+    "education": {
+            "HSC": 5,
+            "BSC": 3.57
+        }
+}
+print(len(person))
+print(person["education"]["BSC"])
+print(type(person["education"]["BSC"]))
