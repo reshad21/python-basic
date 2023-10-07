@@ -173,9 +173,11 @@
 # print(new_array)
 
 # rotate my_array
-num = [10, 20, 30, 40]
+# num = [10, 20, 30, 40]
 # Perform the right rotation by one position
-rotated_num = num[-1:] + num[:-1]
+# rotated_num = num[-1:] + num[:-1]
 
-print("Original List:", num)
-print("Rotated List:", rotated_num)
+# print("Original List:", num)
+# print("Rotated List:", rotated_num)
+
+# is_palindrome racecar
