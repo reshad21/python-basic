@@ -138,20 +138,25 @@
 # print(type(person["education"]["BSC"]))
 
 
-number = int(input("enter marks: "))
+# number = int(input("enter marks: "))
 # print(type(number))
 
-if number in range(80,101):
-    print(f"your markes is: {number} and you get A+")
-elif number in range(70,80):
-    print(f"your markes is: {number} and you get A")
-elif number in range(60,70):
-    print(f"your markes is: {number} and you get A-")
-elif number in range(50,60):
-    print(f"your markes is: {number} and you get B")
-elif number in range(40,50):
-    print(f"your markes is: {number} and you get C")
-elif number in range(33,40):
-    print(f"your markes is: {number} and you get D")
-else:
-    print(f"your markes is: {number} and you Failed")
+# if number in range(80,101):
+#     print(f"your markes is: {number} and you get A+")
+# elif number in range(70,80):
+#     print(f"your markes is: {number} and you get A")
+# elif number in range(60,70):
+#     print(f"your markes is: {number} and you get A-")
+# elif number in range(50,60):
+#     print(f"your markes is: {number} and you get B")
+# elif number in range(40,50):
+#     print(f"your markes is: {number} and you get C")
+# elif number in range(33,40):
+#     print(f"your markes is: {number} and you get D")
+# else:
+#     print(f"your markes is: {number} and you Failed")
+
+
+original_string = "Hello, World!"
+reversed_string = original_string[::-1]
+print(reversed_string)
