@@ -162,12 +162,20 @@
 # print(reversed_string)
 
 
-my_array = [1, 2, 2, 3, 4, 4, 5]
-new_array=[]
+# my_array = [1, 2, 2, 3, 4, 4, 5]
+# new_array=[]
 
-for x in my_array:
-    if my_array.count(x)>1:
-        if x not in new_array:
-            new_array.append(x)
+# for x in my_array:
+#     if my_array.count(x)>1:
+#         if x not in new_array:
+#             new_array.append(x)
 
-print(new_array)
+# print(new_array)
+
+# rotate my_array
+num = [10, 20, 30, 40]
+# Perform the right rotation by one position
+rotated_num = num[-1:] + num[:-1]
+
+print("Original List:", num)
+print("Rotated List:", rotated_num)
